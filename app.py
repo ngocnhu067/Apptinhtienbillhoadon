@@ -3,17 +3,17 @@ import pandas as pd
 
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 
-st.title("🍽️ Hệ thống Order Nhà Hàng")
+st.title("🍽️ Hệ thống Order Nhà Hàng_TRẦN VÕ NGỌC NHƯ")
 
 # Thực đơn
 menu = {
     "Đồ ăn": {
-        "Pizza Hải Sản": 150000, "Mì Ý Bò Bằm": 95000, "Burger Gà": 65000,
+        "Pizza Hải Sản": 120000, "Mì Ý Bò Bằm": 50000, "Burger Gà": 65000,
         "Salad Trộn": 50000, "Bít tết Bò Mỹ": 250000, "Sườn nướng BBQ": 180000,
-        "Cánh gà chiên mắm": 75000,"Lẩu cá diêu hồng":200000, "Lẩu Thái hải sản": 300000
+        "Cánh gà chiên mắm": 75000,"Lẩu cá diêu hồng":200000, "Lẩu Thái hải sản": 300000,"Lẩu cá kèo": 180000
     },
     "Thức uống": {
-        "Coca Cola": 20000, "Trà Đào Cam Sả": 35000, "Cà Phê Sữa": 25000,
+        "Coca Cola": 20000,"Pepsi":20000, "Trà Đào Cam Sả": 35000, "Cà Phê Sữa": 25000,
         "Nước Suối": 10000, "Sinh tố Bơ": 45000, "Nước ép cam": 40000,
         "Mojito chanh dây": 55000, "Bia Heineken": 30000
     }
